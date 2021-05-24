@@ -1,0 +1,20 @@
+{
+  "name": "tangled-manez",
+  "version": "1.0.0",
+  "description": "Lisa Hoesing's Zentangle Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eligilbert/tangled-manez.git"
+  },
+  "author": "Eli Gilbert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eligilbert/tangled-manez/issues"
+  },
+  "homepage": "https://github.com/eligilbert/tangled-manez#readme"
+}
