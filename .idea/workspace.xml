@@ -1,57 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bda1fd58-0dec-4938-a318-eaa90af6b4aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Leo9CZT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/9C067BED-32B6-49C1-A34E-113F17DA7158.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/bookman_old.TTF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/gallery_captions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image003.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image004.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image005.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image006.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image007.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image008.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image009.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image010.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image011.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image012.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image013.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image014.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image015.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image016.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image017.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image018.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image019.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image020.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image020.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image021.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image022.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image022.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image023.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image025.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image026.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image027.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image028.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/image028.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/lion_mock_transparent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/lion_mock_transparent.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/main_lion_transparent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/zentangle_teacher_logo_czt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/setupgallery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/footer_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/header_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/main_style.css" afterDir="false" />
+    <list default="true" id="bda1fd58-0dec-4938-a318-eaa90af6b4aa" name="Default Changelist" comment="initial commit">
       <change afterPath="$PROJECT_DIR$/venv/bin/activate" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/bin/activate.csh" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/bin/activate.fish" afterDir="false" />
@@ -381,15 +331,9 @@
       <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/setuptools-40.8.0-py3.7.egg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/setuptools.pth" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gallery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/smallheader.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/zentangle website words part one copy.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -408,11 +352,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/images/gallery/gallery_captions.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -547,11 +500,6 @@
               <item name="Leo9CZT" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leo9CZT" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Leo9CZT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leo9CZT" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -615,17 +563,26 @@
       <workItem from="1619889012539" duration="739000" />
       <workItem from="1620543107699" duration="2057000" />
       <workItem from="1620588954293" duration="5089000" />
-      <workItem from="1621644609255" duration="9082000" />
+      <workItem from="1621644609255" duration="9327000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1621817306361</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621817306362</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36713000" />
+    <option name="totallyTimeSpent" value="36958000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1440" height="828" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29584527" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29584527" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -639,7 +596,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.1978022" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.1978022" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -765,17 +722,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/gallery/gallery_captions.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
