@@ -1,0 +1,45 @@
+<ul id="main-menu">
+    <a href="/"><li><img src="/main_lion_transparent.png" id="header-lion"></li>
+    <li id="li-title"><h1 id="main-title">Tangled ManeZ&nbsp;<div id="lisa-header">Lisa Hoesing, CZT14</div></h1>
+    </li></a>
+    <a href="/contact"><li class="menu-element">Contact</li></a>
+  <a href="/classes"><li class="menu-element">Classes</li></a>
+    <a href="/gallery"><li class="menu-element">Gallery</li></a>
+  <a href="/about"><li class="menu-element">About</li></a>
+    <a href="/"><li class="menu-element">Home</li></a>
+</ul>
+<script>
+        // copied from W3 Schools Tutorial https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp
+        let prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            let currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos && currentScrollPos < 250) {
+                document.getElementById("header-lion").style.height = "300px";
+                document.getElementById("main-title").style = "font-size: 60pt";
+                document.getElementById("main-menu").style.height = "300px";
+                document.getElementById("footer").style.bottom = "0";
+                document.getElementById("body").style.paddingTop = "283px";
+            } else {
+                document.getElementById("header-lion").style.height = "90px";
+                document.getElementById("main-title").style = "font-size: 38pt";
+                document.getElementById("main-menu").style.height = "100px";
+                document.getElementById("footer").style.bottom = "-30px";
+            }
+            prevScrollpos = currentScrollPos;
+        };
+        if(window.innerWidth < 1055) {
+            document.getElementById("main-title").innerHTML = "Tangled ManeZ";
+        } else if(window.innerWidth < 1170) {
+            document.getElementById("main-title").innerHTML = "Tangled ManeZ&nbsp;<div id=\"lisa-header\">Lisa Hoesing</div>";
+        }
+        window.onresize = function() {
+            if(window.innerWidth > 1170) {
+                document.getElementById("main-title").innerHTML = "Tangled ManeZ&nbsp;<div id=\"lisa-header\">Lisa Hoesing, CZT14</div>";
+            } else if(window.innerWidth > 1055) {
+                document.getElementById("main-title").innerHTML = "Tangled ManeZ&nbsp;<div id=\"lisa-header\">Lisa Hoesing</div>";
+            }
+            else {
+                document.getElementById("main-title").innerHTML = "Tangled ManeZ";
+            }
+        }
+    </script>
