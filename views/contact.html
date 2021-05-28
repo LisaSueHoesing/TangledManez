@@ -17,11 +17,60 @@
     <link rel="stylesheet" href="/main_style.css" />
     <link rel="stylesheet" href="/footer_style.css" />
     <link rel="stylesheet" href="/header_style.css" />
+    <link rel="stylesheet" href="/contact_style.css" />
 </head>
 <body>
 <div id="header"></div>
 <div id="body">
-    Contact page (under construction)
+    <h3>Sign Up for my Mailing List</h3><br>
+    <form>
+        <div class="fcf-form-group">
+            <label for="mailing-email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="mailing-email" name="mailing-email" class="fcf-form-control" required>
+            </div>
+        </div>
+        <div class="fcf-form-group"><input type="submit" id="submit-mailing-list" value="Sign Me Up!" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block" /></div>
+    </form>
+
+
+    <h3>Contact Me</h3><br>
+    <form id="fcf-form-id" class="fcf-form-class">
+
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
+
+    </form>
+
+    <h3 style="line-height: 1.4">Social Media</h3>
+    <a href="https://www.facebook.com/lisa.hoesing" class="social-link" target="_blank"><img src="facebook_logo.png" /></a>
+    &nbsp;&nbsp;
+    <a href="https://www.pinterest.es/lisasuehoesing" class="social-link" target="_blank"><img src="pinterest.png" /></a>
+
+
+
 </div>
 <div id="footer"></div>
 </body>
