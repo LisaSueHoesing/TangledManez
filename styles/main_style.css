@@ -37,7 +37,7 @@ a {
 }
 
 a:hover {
-    color: #1512a0;
+    color: #3a57a0;
 }
 
 #gallery {
@@ -110,4 +110,30 @@ a:hover {
   -webkit-column-count: 1;
   column-count:         1;
   }
+}
+
+.about-image {
+    padding-left: 10px;
+    padding-right: 5px;
+    width: 25%;
+    padding-bottom: 10px;
+}
+
+.about-image-left {
+    padding-right: 10px;
+    width: 22%;
+}
+
+.about-image-left-tall {
+    padding-right: 10px;
+    width: 23%;
+}
+
+.social-link {
+    font-size: 25px;
+    vertical-align: center;
+}
+
+.social-link img {
+    height: 50px;
 }
