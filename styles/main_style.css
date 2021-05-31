@@ -14,6 +14,7 @@ body {
     padding-top: 333px;
     font-size: 16px;
     background-color: #fbffe6;
+    min-height: calc(100vh - 300px);
 }
 
 #body.small-header-body {
@@ -117,11 +118,13 @@ a:hover {
     padding-right: 5px;
     width: 25%;
     padding-bottom: 10px;
+    max-width: 20em;
 }
 
 .about-image-left {
     padding-right: 10px;
     width: 22%;
+    max-width: 20em;
 }
 
 .about-image-left-tall {
@@ -136,4 +139,9 @@ a:hover {
 
 .social-link img {
     height: 50px;
+}
+
+.about-section {
+    display: block;
+    margin-top: 20px;
 }
