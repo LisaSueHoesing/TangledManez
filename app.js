@@ -62,7 +62,7 @@ app.get('/mailing', function(req, res) {
 app.post('/submit_contact_form', function(req, res) {
     let mailOptions = {
         from: req.body.Name + ' <post.multimusic@gmail.com>',
-        to: "lisasuehoesing@gmail.com",
+        to: "eligilbert70@gmail.com",
         replyTo: req.body.Name + ' <' + req.body.Email + '>',
         subject: req.body.Subject,
         text: req.body.Message
@@ -74,7 +74,7 @@ app.post('/submit_contact_form', function(req, res) {
 app.post('/submit_mailing_form', function(req, res) {
     let mailOptions = {
         from: 'TangledManeZ Webmaster <post.multimusic@gmail.com>',
-        to: "lisasuehoesing@gmail.com",
+        to: "eligilbert70@gmail.com",
         subject: 'TangledManeZ: Mailing List Request',
         text: 'Hi Lisa,\n\nThe following person has requested to be added to the TangledManeZ mailing list:' +
             '\n\n' + req.body.mailingemail + '\n\nBest,\nYour website'

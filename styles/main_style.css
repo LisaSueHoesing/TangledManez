@@ -145,3 +145,8 @@ a:hover {
     display: block;
     margin-top: 20px;
 }
+
+#classes-image {
+    padding-top: 30px;
+    height: 18em;
+}
