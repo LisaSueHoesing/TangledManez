@@ -13,7 +13,7 @@
         let prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
             let currentScrollPos = window.pageYOffset;
-            if (prevScrollpos > currentScrollPos && currentScrollPos < 250) {
+            if (prevScrollpos > currentScrollPos || currentScrollPos < 50) {
                 document.getElementById("footer").style.bottom = "0";
             } else {
                 document.getElementById("footer").style.bottom = "-30px";
