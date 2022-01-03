@@ -17,9 +17,18 @@ body {
     min-height: calc(100vh - 300px);
 }
 
-#body.small-header-body {
-    padding: 88px 0 10px 0;
+#body.gallery-body {
+    padding: 88px 0 0 0;
+}
 
+#body.contact-body {
+    padding: 88px 10px 10px 10px;
+}
+
+#body.undersized{
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
 }
 
 h3 {

@@ -11,15 +11,25 @@
 <script>
         // copied from W3 Schools Tutorial https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp
         let prevScrollpos = window.pageYOffset;
+        let topText = false;
+        try {
+            topText = document.getElementById("top-text");
+        } catch (error) {
+
+        }
         window.onscroll = function() {
             let currentScrollPos = window.pageYOffset;
-            if (prevScrollpos > currentScrollPos && currentScrollPos < 250) {
+            let topTextHeight = topText.getBoundingClientRect().top;
+            if (topText && 140 < topTextHeight && topTextHeight < 360 && prevScrollpos < currentScrollPos) {
+                document.getElementById("header-lion").style.height = (topTextHeight - 50).toString() + "px";
+                document.getElementById("main-title").style = "font-size: " + (38 + 22 * (topTextHeight - 140) / 220).toString() + "pt";
+                document.getElementById("main-menu").style.height = (topTextHeight - 40).toString() + "px";
+            } else if (prevScrollpos > currentScrollPos || currentScrollPos < 35) {
                 document.getElementById("header-lion").style.height = "370px";
                 document.getElementById("header-lion").style.paddingTop = "0";
                 document.getElementById("main-title").style = "font-size: 60pt";
                 document.getElementById("main-menu").style.height = "350px";
                 document.getElementById("footer").style.bottom = "0";
-                document.getElementById("body").style.paddingTop = "333px";
             } else {
                 document.getElementById("header-lion").style.paddingTop = "5px";
                 document.getElementById("header-lion").style.height = "90px";
