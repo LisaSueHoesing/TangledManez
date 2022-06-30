@@ -9,6 +9,7 @@ app.use(express.static(__dirname + '/views'));
 app.use(express.static(__dirname + '/scripts'));
 app.use(express.static(__dirname + '/images'));
 app.use(express.static(__dirname + '/styles'));
+app.use(express.static(__dirname + '/data'));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 const transporter = nodemailer.createTransport({
@@ -20,7 +21,7 @@ const transporter = nodemailer.createTransport({
 });
 
 app.get('/', function(req, res) {
-    res.sendFile(__dirname + '/index.html');
+    res.sendFile(__dirname + '/views/index.html');
 });
 
 app.get('/header', function(req, res) {

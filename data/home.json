@@ -1,0 +1,8 @@
+{
+  "title": "My Class Title",
+  "subtitle": "Subtitle (optional)",
+  "date": "January 17, 2022",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque fringilla eleifend. Phasellus viverra posuere tortor, sit amet aliquet magna tempus in. Ut vulputate, dui eget scelerisque sodales, sapien arcu rhoncus augue, at varius mi neque eget tortor. ",
+  "contact": true,
+  "image": "/gallery/image001.jpg"
+}

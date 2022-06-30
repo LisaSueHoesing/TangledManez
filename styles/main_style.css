@@ -147,7 +147,7 @@ a:hover {
 }
 
 .social-link img {
-    height: 50px;
+    height: 70px;
 }
 
 .about-section {
@@ -158,4 +158,61 @@ a:hover {
 #classes-image {
     padding-top: 30px;
     height: 18em;
+}
+
+.home-box {
+    margin: auto;
+    width: 60%;
+    /*border: 5px solid #81D8D0;*/
+    /*padding: 10px;*/
+    margin-top: 40px;
+
+    border: 30px solid transparent;
+    padding: 20px;
+    border-image: url(combined_tngldmnz_frame.png) 90 round;
+
+    position: relative;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.home-box:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.home-img {
+    height: 250px;
+    float: right;
+}
+
+.home-title {
+    margin-top: 5px;
+}
+
+.home-subtitle {
+    font-size: 22px;
+    color: #8797a7;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.home-date {
+    font-size: 16px;
+    color: #8797a7;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.home-contact {
+
+}
+
+.home-box-left {
+    overflow: scroll;
+    height: 100%;
 }

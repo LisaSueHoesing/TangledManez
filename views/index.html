@@ -14,15 +14,36 @@
             $("#footer").load("footer");
         });
     </script>
+    <script src="/setup_home.js"></script>
     <link rel="stylesheet" href="/main_style.css" />
     <link rel="stylesheet" href="/footer_style.css" />
     <link rel="stylesheet" href="/header_style.css" />
 </head>
 <body>
-<div id="header"></div>
-<div id="body" class="undersized">
-    <h3>Home page (under construction)</h3>
-</div>
-<div id="footer"></div>
+    <div id="header"></div>
+    <div id="body" class="undersized">
+        <div class="home-box">
+            <div class="home-box-left column">
+                <h3 id="home-title" class="home-title"></h3>
+                <h4 id="home-subtitle" class="home-subtitle"></h4>
+                <h5 id="home-date" class="home-date"></h5>
+                <div id="home-description"></div>
+                <br>
+                Want to learn more? <a href="contact.html" id="home-contact" class="home-contact"></a>
+            </div>
+            <div class="home-box-right column">
+                <img id="home-img" src="" alt="Zentangle Image" class="home-img">
+            </div>
+        </div>
+    </div>
+<!--    <div id="footer"></div>-->
+    <script>
+        setupHome();
+        // if window not tall enough change to small header
+        // width of recent card set to window
+        // height of recent card window-header
+        // recent card internally scrollable
+        // image in recent card = full height
+    </script>
 </body>
 </html>
