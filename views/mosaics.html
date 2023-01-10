@@ -1,1 +1,33 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tangled ManeZ: Gallery</title>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script>
+        $(function(){
+            $("#header").load("/smallheader");
+            $("#footer").load("/footer");
+        });
+    </script>
+    <script src="/setupgallery.js"></script>
+    <link rel="stylesheet" href="/main_style.css" />
+    <link rel="stylesheet" href="/footer_style.css" />
+    <link rel="stylesheet" href="/header_style.css" />
+</head>
+<body>
+<div id="header"></div>
+<div id="body" class="gallery-body">
+    <div id="gallery">
+    </div>
+</div>
+<div id="footer"></div>
+<script>
+    setupGallery();
+</script>
+</body>
+</html>
