@@ -40,6 +40,10 @@ app.get('/contact', function(req, res) {
     res.sendFile(__dirname + '/views/contact.html');
 });
 
+app.get('/mosaics', function(req, res) {
+    res.sendFile(__dirname + '/views/mosaics.html');
+});
+
 app.get('/classes', function(req, res) {
     res.sendFile(__dirname + '/views/classes.html');
 });
