@@ -71,7 +71,7 @@ h1#main-title {
 
 #header-lion-small {
     float: left;
-    height: 90px;
+    height: 100px;
     padding-left: 15px;
     padding-top: 5px;
     transition: 0.5s;
@@ -91,7 +91,7 @@ h1#main-title-small {
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    transform: translateY(-15%);
 }
 
 #main-menu-small {
