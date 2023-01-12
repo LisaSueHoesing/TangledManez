@@ -5,7 +5,7 @@ This is the source code for the webpage of Lisa Hoesing's Zentangle studio based
 ## Important Files
 *data/home.json* contains metadata to populate the homepage
 
-*images/gallery* should be the location of images that go in the gallery, though they must also be added to *images/gallery/?* in order to show up in the gallery page
+*images/gallery* should be the location of images that go in the gallery, though they must also be added to *images/gallery/gallery_captions.json* in order to show up in the gallery page
 
 *images/mosaic* has a similar setup to images/gallery
 
