@@ -1,4 +1,4 @@
-function setupMosaics() {
+function setupGallery() {
     fetch("gallery_captions.json")
         .then(response => response.json())
         .then(data => {
