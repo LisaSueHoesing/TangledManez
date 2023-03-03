@@ -1,5 +1,5 @@
-function setupGallery() {
-    fetch("gallery_captions.json")
+function setupMosaics() {
+    fetch("mosaics_captions.json")
         .then(response => response.json())
         .then(data => {
             let galleryObject = document.getElementById("gallery");
